@@ -18,8 +18,7 @@
 
 
 /*******************************Основная страница**********************/
-.list {
-
+content {
   position: absolute;
   left: 25vw;
   font-family: Tahoma;
@@ -27,7 +26,6 @@
   height: 989px;
   box-shadow: 0 6px 10px rgba(0,0,0,1);
 }
-
 
 /**************************************Голова***********************/
 header {
@@ -45,7 +43,7 @@ header {
   margin-top: 12px;
   margin-left: 25px;
 }
-.logo h4 {
+.logo h3 {
   position: absolute;
   top: 120px;
   left: 90px;
@@ -168,14 +166,12 @@ section {
   width: 210px;
   background-color: #EDEEF0;
 }
-
 .leftbar h2 {
   margin: 15px;
   text-align: center;
   color: #424c43;
   font-weight: bold;
 }
-
 .leftbar p {
   margin: 17px;
 }
@@ -186,33 +182,27 @@ section {
     border-left: 1px solid #c7cacf;
     border-right: 1px solid #c7cacf;
 }
-
 .rightbar {
   float: right;
   height: 547px;
   width: 210px;
   background-color: #EDEEF0;
 }
-
 .rightbar h2 {
   margin: 15px;
   text-align: center;
   color: #424c43;
   font-weight: bold;
 }
-
 .rightbar p {
   margin: 17px;
 }
-
 footer {
   clear: both;
   text-align: center;
   margin-top: 10px;
 }
-
 footer p {
-
   margin: -24px 0 0 12% ;
   color: white;
 }
