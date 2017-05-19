@@ -1,0 +1,218 @@
+/*******************************ФОН**************************************/
+.fon1 {
+  background-color: #128aa7;
+  height: 28px;
+  width: 100%;
+}
+.fon2 {
+  background: linear-gradient(to bottom, #25d2e3, #fcfffe);
+  border-top: 1px solid #5ef0ff;
+  height: 147px;
+  width: 100%;
+}
+.fon3 {
+  background: linear-gradient(to top, #0c76a1, #37bbcc);
+  height: 847px;
+  width: 100%;
+}
+
+
+/*******************************Основная страница**********************/
+.list {
+
+  position: absolute;
+  left: 25vw;
+  font-family: Tahoma;
+  width: 1000px;
+  height: 989px;
+  box-shadow: 0 6px 10px rgba(0,0,0,1);
+}
+
+
+/**************************************Голова***********************/
+header {
+  background-color: white;
+  height: 176px;
+  width: 100%;
+  color: #128aa7;
+}
+.logo {
+  float: left;
+
+}
+.logo_img {
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 25px;
+}
+.logo h4 {
+  position: absolute;
+  top: 120px;
+  left: 90px;
+
+}
+
+/****************************Контакты страны************************/
+.contact {
+  float: right;
+  margin-top: 10px;
+}
+.call {
+  float:right;
+  height: 100px;
+  margin-right: 20px;
+}
+.call p {
+  font-size: 12px;
+}
+.call h3 {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.country {
+  clear: both;
+  margin-right: 30px;
+}
+.country li {
+  display: inline-block;
+  width: 50px;
+}
+.country a {
+  display: inline-block;
+  text-align: center;
+  font-size: 12px;
+  color: #128aa7;
+}
+/****************************Фото***************************/
+.photo {
+  border-bottom: 1px solid #128aa7;
+  border-top: 1px solid #138aa7;s
+}
+
+/************************************Меню*************************/
+.nav {
+  position: relative;
+  background: linear-gradient(to top, #303030, #373737);
+  width: 1000px;
+  margin-top: -2px;
+  height: 28px;
+  border-bottom: 1px solid black;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.5);
+
+}
+div.nav li {
+  position: relative;
+  display: inline-block;
+  padding-top: 5px;
+  height: 30px;
+  width: 135px;
+  text-align: center;
+
+}
+.nav a {
+
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+
+}
+.triangle {
+  position: relative;
+  left: 8px;
+  top: 13px;
+  border: 4px solid transparent;
+  border-top: 8px solid white;
+
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    top: 29px;
+    left: 15px;
+    background-color: white;
+    max-height: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+ul.submenu > li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    height: 23px;
+    background: #303030;
+    width: 150px;
+
+}
+ul.submenu > li > a {
+    display: block;
+    height: 100%;
+    color: white;
+    padding-left: 10px;
+    text-decoration: none;
+
+}
+li:hover > ul.submenu {
+    display: block;
+}
+
+/*******************************Секция****************/
+
+section {
+  height: 547px;
+  background-color: white;
+}
+.leftbar {
+  float: left;
+  height: 100%;
+  width: 210px;
+  background-color: #EDEEF0;
+}
+
+.leftbar h2 {
+  margin: 15px;
+  text-align: center;
+  color: #424c43;
+  font-weight: bold;
+}
+
+.leftbar p {
+  margin: 17px;
+}
+.bar {
+    margin: 0 auto;
+    width: 578px;
+    height: 547px;
+    border-left: 1px solid #c7cacf;
+    border-right: 1px solid #c7cacf;
+}
+
+.rightbar {
+  float: right;
+  height: 547px;
+  width: 210px;
+  background-color: #EDEEF0;
+}
+
+.rightbar h2 {
+  margin: 15px;
+  text-align: center;
+  color: #424c43;
+  font-weight: bold;
+}
+
+.rightbar p {
+  margin: 17px;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  margin-top: 10px;
+}
+
+footer p {
+
+  margin: -24px 0 0 12% ;
+  color: white;
+}
