@@ -18,7 +18,7 @@
 
 
 /*******************************Основная страница**********************/
-content {
+.content {
   position: absolute;
   left: 25vw;
   font-family: Tahoma;
